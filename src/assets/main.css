@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Quicksand", sans-serif;
+  }
+
+  .text-secondary{
+    color: #ccd6f6;
+  }
+  .text-color{
+     color: #abb4c2;
+  }

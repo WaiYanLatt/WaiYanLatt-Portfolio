@@ -8,7 +8,7 @@ const useMe = defineStore("me", {
             eduction : 'Second Year',
             major : 'Geophagy',
             university : 'Dagon',
-            city : 'Yangon',
+            city : 'Yangon , South Dagon',
             country : 'Myanmar',
             email : 'waiyanlattdev@gmail.com',
             phone : '09740863737',

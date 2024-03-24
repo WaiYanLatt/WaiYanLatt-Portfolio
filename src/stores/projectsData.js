@@ -7,7 +7,7 @@ const useProjects = defineStore("project", {
           id: 1,
           projectName: "Air-bnb",
           projectUrl: "/airbnb.svg",
-          imageUrl: "/Air-bnb.gif",
+          imageUrl: "/air-bnb.png",
           demoLink: "https://air-bnb-lemon.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/Air-bnb",
           desEng: `
@@ -26,7 +26,7 @@ const useProjects = defineStore("project", {
           id: 2,
           projectName: "Spotify",
           projectUrl: "/Spotify_logo_with_text.svg.webp",
-          imageUrl: "/public/Air-bnb.png",
+          imageUrl: "/spotify.png",
           demoLink: "https://spotify-clone-rosy-five.vercel.app",
           sorceCodeLink: "https://github.com/WaiYanLatt/Spotify-clone",
           desEng: `
@@ -47,7 +47,7 @@ const useProjects = defineStore("project", {
           id: 3,
           projectName: "Brand",
           projectUrl: "/icon.png",
-          imageUrl: "/public/Air-bnb.png",
+          imageUrl: "/brnad.png",
           demoLink: "https://brand-dusky.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/Brand",
           desEng: `
@@ -66,6 +66,7 @@ const useProjects = defineStore("project", {
           id: 4,
           projectName: "Todo-App",
           projectUrl: "/Microsoft_To-Do_icon.png",
+          imageUrl : '/todo.png',
           demoLink: "https://todo-app-pinia.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/Todo-App-pinia",
           desEng: `
@@ -86,6 +87,7 @@ const useProjects = defineStore("project", {
           id: 5,
           projectName: "Social-Media-APP",
           projectUrl: "/heart.png",
+          imageUrl : '/social.png ',
           demoLink: "https://social-media-with-props.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/social-media-with-props",
           desEng: `
@@ -104,6 +106,7 @@ const useProjects = defineStore("project", {
           id: 6,
           projectName: "Dictionary-E-to-E",
           projectUrl: "/dict.png",
+          imageUrl : '/etoe.png',
           demoLink: "https://dictionary-e-to-e.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/Dictionary-E-to-E",
           desEng: `
@@ -123,6 +126,7 @@ const useProjects = defineStore("project", {
           id: 7,
           projectName: "User Management",
           projectUrl: "/user.jfif",
+          imageUrl : '/use.png',
           demoLink: "https://user-management-with-pinia.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/User-Management-With-Pinia",
           desEng: `
@@ -144,6 +148,7 @@ const useProjects = defineStore("project", {
           id: 8,
           projectName: "Text for Voice",
           projectUrl: "/voice.png",
+          imageUrl : '/tforv.png',
           demoLink: "https://vue-mini-project-sigma.vercel.app/Voice%20System/voice.html",
           sorceCodeLink: "https://github.com/WaiYanLatt/Vue-Mini-Project/tree/main/Voice%20System",
           desEng: `
@@ -158,26 +163,9 @@ const useProjects = defineStore("project", {
         },
         {
           id: 9,
-          projectName: "Servery Form",
-          projectUrl: "/servery.png",
-          demoLink: "https://vue-mini-project-sigma.vercel.app/serveryForm/servery.html",
-          sorceCodeLink: "https://github.com/WaiYanLatt/Vue-Mini-Project/tree/main/serveryForm",
-          desEng: `
-          The name of this current site is Survey Form.
-          This site allows users to submit survey responses. 
-          Users can fill out various survey questions and submit their responses.
-          Once a user submits their response, they cannot submit another one. 
-          The primary purpose of the site is to collect feedback or data through surveys.
-          `,
-          language: "JS",
-          framework: "Vue",
-          dataStore: "none",
-          Api: "none",
-        },
-        {
-          id: 10,
           projectName: "Facebook",
           projectUrl: "/facebook.png",
+          imageUrl : '/face.png',
           demoLink: "https://facebook-app-jet.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/Facebook-App",
           desEng: `
@@ -192,9 +180,10 @@ const useProjects = defineStore("project", {
           Api: "none",
         },
         {
-          id: 11,
+          id: 10,
           projectName: "League of legend",
           projectUrl: "/logo-removebg-preview.png",
+          imageUrl : '/lol.jpg',
           demoLink: "https://league-of-legend-3vi3.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/League-of-legend",
           desEng: `
@@ -209,9 +198,10 @@ const useProjects = defineStore("project", {
           Api: "none",
         },
         {
-          id: 12,
+          id: 11,
           projectName: "Epic Games",
           projectUrl: "/epic.png",
+          imageUrl: "/epicgame.jpg",
           demoLink: "http://epic-games-ecru.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/EpicGames",
           desEng: `
@@ -226,9 +216,10 @@ const useProjects = defineStore("project", {
           Api: "none",
         },
         {
-          id: 13,
+          id: 12,
           projectName: "Netflix",
           projectUrl: "/net.jpg",
+          imageUrl : '/netflix1.jpg',
           demoLink: "http://netflix-movie.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/Netflix-Movie",
           desEng: `
@@ -243,9 +234,10 @@ const useProjects = defineStore("project", {
           Api: "none",
         },
         {
-          id: 14,
+          id: 13,
           projectName: "Ionic",
           projectUrl: "/iconic.png",
+          imageUrl : '/ionic.jpg',
           demoLink: "https://ionic-sigma.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/ionic",
           desEng: `
@@ -259,9 +251,10 @@ const useProjects = defineStore("project", {
           Api: "none",
         },
         {
-          id: 15,
+          id: 14,
           projectName: "Taxpal",
           projectUrl: "/taxpal.png",
+          imageUrl : '/taxpal.jpg',
           demoLink: "https://tax-pal-iota.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/Tax-pal",
           desEng: `
@@ -275,9 +268,10 @@ const useProjects = defineStore("project", {
           Api: "none",
         },
         {
-          id: 16,
+          id: 15,
           projectName: "Truelife",
           projectUrl: "/truelife.png",
+          imageUrl : '/food.jpg',
           demoLink: "https://trulife-food-delivery.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/trulife-food-delivery",
           desEng: `
@@ -291,9 +285,10 @@ const useProjects = defineStore("project", {
           Api: "none",
         },
         {
-          id: 17,
+          id: 16,
           projectName: "NIKE",
           projectUrl: "/nike.png",
+          imageUrl : '/nike.jpg',
           demoLink: "https://nike-gamma.vercel.app/",
           sorceCodeLink: "https://github.com/WaiYanLatt/NIKE",
           desEng: `
@@ -303,6 +298,25 @@ const useProjects = defineStore("project", {
           `,
           language: "JS",
           framework: "Bootstrap",
+          dataStore: "none",
+          Api: "none",
+        },
+        {
+          id: 17,
+          projectName: "Servery Form",
+          projectUrl: "/servery.png",
+          imageUrl : '/ser.png',
+          demoLink: "https://vue-mini-project-sigma.vercel.app/serveryForm/servery.html",
+          sorceCodeLink: "https://github.com/WaiYanLatt/Vue-Mini-Project/tree/main/serveryForm",
+          desEng: `
+          The name of this current site is Survey Form.
+          This site allows users to submit survey responses. 
+          Users can fill out various survey questions and submit their responses.
+          Once a user submits their response, they cannot submit another one. 
+          The primary purpose of the site is to collect feedback or data through surveys.
+          `,
+          language: "JS",
+          framework: "Vue",
           dataStore: "none",
           Api: "none",
         },

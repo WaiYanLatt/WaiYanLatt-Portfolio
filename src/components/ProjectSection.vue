@@ -80,7 +80,7 @@ export default {
       >
         INCLUDES APIs
       </button>
-      <div class="grid grid-cols-3 gap-3 mt-10">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 mt-10">
         <ProjectCard
           v-for="pro in useProjects.filterProjects"
           :pro="pro"

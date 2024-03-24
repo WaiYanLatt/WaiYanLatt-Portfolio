@@ -11,26 +11,26 @@ export default {
 
 <template>
   <div>
-    <div class="fixed z-10 top-0 pt-10 bg-[#0a192f]">
+    <div class="lg:fixed static z-10 top-0 pt-10 bg-[#0a192f]">
       <div
-        class="w-[980px] bg-slate-950 px-5 py-3 rounded-md flex items-center"
+        class="lg:w-[980px] w-full bg-slate-950 px-5 py-3 rounded-md flex items-center"
       >
         <router-link to="/project">
           <button class="h-10 w-10 bg-[#64ffda] mr-5 rounded-full border-2">
             <i class="fa-solid fa-angle-left"></i>
           </button>
         </router-link>
-        <h1 class="text-[#64ffda] font-semibold">
+        <h1 class="text-[#64ffda] text-nowrap font-semibold">
           {{ pro.projectName }} Details Page
         </h1>
       </div>
     </div>
-    <div class="flex relative">
+    <div class="flex lg:flex-row flex-col relative">
       <div
-        class="bg-slate-950 w-[350px] h-[450px] rounded-lg p-3 fixed top-[130px]"
+        class="bg-slate-950 lg:w-[360px] mt-3 lg:mt-0  w-full h-auto rounded-lg p-2 lg:fixed static top-[130px] "
       >
-        <img :src="pro.imageUrl" alt="" class="w-full rounded-lg h-[250px]" />
-        <div class="mt-10">
+        <img :src="pro.imageUrl" alt="" class="w-full rounded-lg h-auto object-cover" />
+        <div class="mt-10 mb-5">
           <a :href="pro.demoLink" target="_blank">
             <button
               class="border px-5 py-3 w-full text-sm rounded-lg text-[#64ffda] hover:bg-[#64ffda] hover:text-black duration-500 font-semibold"
@@ -50,9 +50,9 @@ export default {
         </div>
       </div>
       <div
-        class="bg-slate-950 w-full min-h-[300px] rounded-lg mt-[90px] p-3 ml-[354px]"
+        class="bg-slate-950 w-full min-h-[300px] lg:rounded-lg rounded-none lg:mt-[90px] mt-[-10px] p-3 lg:ml-[365px] ml-0"
       >
-        <img :src="pro.projectUrl" class="h-8 w-auto my-3 rounded-lg" alt="" />
+        <img :src="pro.projectUrl" class="h-8 w-auto my-3 lg:rounded-lg rounded-none" alt="" />
         <h1 class="font-semibold text-secondary text-lg mt-10">
           {{ pro.projectName }} Description
         </h1>

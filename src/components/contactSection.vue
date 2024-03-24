@@ -50,7 +50,7 @@ export default {
           <img
             src="/me.jpg"
             alt=""
-            class="w-full md:hidden h-auto border-[#64ffda] border-4 rounded-full object-cover"
+            class="w-full md:hidden lg:block block h-auto border-[#64ffda] border-4 rounded-full object-cover"
           />
           <div class="mt-10 w-[300px]">
             <div class="*:mt-2">

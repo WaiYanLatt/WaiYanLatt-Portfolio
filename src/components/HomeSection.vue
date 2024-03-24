@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex lg:flex-row flex-col items-center justify-between animate__animated animate__fadeInRight"
+    class="flex lg:flex-row flex-col md:flex-col-reverse items-center justify-between animate__animated animate__fadeInRight"
   >
     <div class="lg:w-[710px] w-full lg:mt-0 mt-10">
       <h1 class="text-secondary font-semibold text-4xl">

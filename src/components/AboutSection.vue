@@ -100,7 +100,7 @@ export default {
         >* Note : sorry for my english and thanks for reading. *</i
       >
     </div>
-    <div class="grid lg:grid-cols-3 grid-cols-1 mt-5">
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-5">
       <div class="w-[300px]">
         <div class="*:mt-2">
           <h1 class="font-semibold flex items-center text-white leading-7 text-sm">
@@ -141,7 +141,7 @@ export default {
           <!-- <hr class="border border-[#64ffda]" /> -->
         </div>
       </div>
-      <div class="w-[300px] mt-5 lg:mt-0">
+      <div class="w-[300px] mt-5 lg:mt-0 md:mt-0">
         <div class="*:mt-2">
           <h1 class="font-semibold flex items-center text-white leading-7 text-sm">
             <i class="fa-regular fa-circle-check  text-[#64ffda]"></i>

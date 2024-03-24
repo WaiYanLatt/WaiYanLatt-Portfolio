@@ -45,12 +45,12 @@ export default {
       </h1>
       <div class="w-20 mt-1 h-1 bg-[#64ffda]"></div>
       <div class="w-11 mt-1 h-1 bg-[#64ffda]"></div>
-      <div class="mt-10 flex lg:flex-row flex-col">
+      <div class="mt-10 flex lg:flex-row flex-col md:flex-col-reverse">
         <div class="lg:w-[200px] w-full">
           <img
             src="/me.jpg"
             alt=""
-            class="w-full h-auto border-[#64ffda] border-4 rounded-full object-cover"
+            class="w-full md:hidden h-auto border-[#64ffda] border-4 rounded-full object-cover"
           />
           <div class="mt-10 w-[300px]">
             <div class="*:mt-2">

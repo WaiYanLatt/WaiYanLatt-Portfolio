@@ -10,15 +10,20 @@
         I'm a <span class="text-[#64ffda]">front-end developer.</span>
       </h1>
       <p class="text-color font-semibold text-md mt-5 leading-10">
-        I am a <span class="text-[#64ffda]">front-end developer</span> with 3 years of experience. I can develope
-        <span class="text-[#64ffda]">UI/UX designs</span> provided by <span class="text-[#64ffda]">designers</span> , and I can also <span class="text-[#64ffda]">collaborate</span> with
-        back-end developers who provide <span class="text-[#64ffda]">APIs</span>.
+        I am a <span class="text-[#64ffda]">front-end developer</span> with 3
+        years of experience. I can develope
+        <span class="text-[#64ffda]">UI/UX designs</span> provided by
+        <span class="text-[#64ffda]">designers</span> , and I can also
+        <span class="text-[#64ffda]">collaborate</span> with back-end developers
+        who provide <span class="text-[#64ffda]">APIs</span>.
       </p>
-      <button
-        class="hover:bg-[#64ffda] border-[#64ffda] hover:border-white duration-500 hover:text-black mt-5 px-5 py-2 rounded-md font-semibold text-lg text-[#64ffda] border"
-      >
-        Download CV
-      </button>
+      <a href="/waiyanlattCV.pdf" download>
+        <button
+          class="hover:bg-[#64ffda] border-[#64ffda] hover:border-white duration-500 hover:text-black mt-5 px-5 py-2 rounded-md font-semibold text-lg text-[#64ffda] border"
+        >
+          Download CV
+        </button>
+      </a>
     </div>
     <div class="relative lg:mt-0 mt-10">
       <div

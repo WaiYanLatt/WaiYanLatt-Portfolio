@@ -38,21 +38,21 @@ export default {
       <div class="w-20 mt-1 h-1 bg-[#64ffda]"></div>
       <div class="w-11 mt-1 h-1 bg-[#64ffda]"></div>
       <h1
-        class="font-semibold flex items-center text-white leading-7 text-sm my-3 mt-10"
+        class="font-semibold flex items-center text-color leading-7 text-sm my-3 mt-10"
       >
         <i class="fa-solid fa-circle text-[#64ffda] mr-3"></i>
         Developing responsive and user-friendly interfaces for web applications
         using modern frontend technologies.
       </h1>
       <h1
-        class="font-semibold flex items-center text-white leading-7 text-sm my-3"
+        class="font-semibold flex items-center text-color leading-7 text-sm my-3"
       >
         <i class="fa-solid fa-circle text-[#64ffda] mr-3"></i>
         Optimizing website performance and ensuring compatibility across
         different browsers and devices.
       </h1>
       <h1
-        class="font-semibold flex items-center text-white leading-7 text-sm my-3"
+        class="font-semibold flex items-center text-color leading-7 text-sm my-3"
       >
         <i class="fa-solid fa-circle text-[#64ffda] mr-3"></i>
         Collaborating with designers to translate mockups and wireframes into

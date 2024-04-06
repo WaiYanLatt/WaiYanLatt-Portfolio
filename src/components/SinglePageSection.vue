@@ -11,9 +11,9 @@ export default {
 
 <template>
   <div>
-    <div class="lg:fixed static z-10 top-0 pt-10 bg-[#0a192f]">
+    <div class="lg:fixed static w-[1000px] z-10 top-0 pt-10 bg-[#0a192f]">
       <div
-        class="lg:w-[980px] w-full bg-slate-950 px-5 py-3 rounded-md flex items-center"
+        class="w-full bg-slate-950 px-5 py-3 rounded-md flex items-center"
       >
         <router-link to="/project">
           <button class="h-10 w-10 bg-[#64ffda] mr-5 rounded-full border-2">

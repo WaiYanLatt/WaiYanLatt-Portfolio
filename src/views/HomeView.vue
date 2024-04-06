@@ -12,7 +12,7 @@ import HomeSection from '@/components/HomeSection.vue';
 </script>
 
 <template>
-     <div class="bg-[#0a192f] container mx-auto md:px-10 lg:px-10 px-5 py-10 min-h-screen lg:ml-72 ml-0 overflow-hidden">
+     <div class="bg-[#0a192f]  md:px-10 lg:px-10 px-5 py-10 min-h-screen lg:ml-72 w-full ml-0 overflow-hidden">
         <HomeSection/>
      </div>
 </template>

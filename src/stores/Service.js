@@ -7,7 +7,7 @@ const useService = defineStore("service", {
           id: 1,
           icon: "fa-solid fa-crop",
           serviceType: "UI-UX DESIGN",
-          Des: "I can design prototypes by using Figma, Ai, and Photoshop. However, this is not my specialty.",
+          Des: "I can design prototypes by using Figma, Ai, and Photoshop.",
         },
         {
           id: 2,
@@ -19,7 +19,7 @@ const useService = defineStore("service", {
           id: 3,
           icon: "fa-solid fa-code",
           serviceType: "FRONT-END DEVELOPMENT",
-          Des: "I can develop websites provided by UI/UX designers using Vue and Tailwind, as well as React and Tailwind. However, React is not my specialty.",
+          Des: "I can develop websites provided by UI/UX designers using Vue and Tailwind, as well as React and Tailwind.",
         },
         {
           id: 4,

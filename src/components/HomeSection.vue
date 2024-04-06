@@ -17,6 +17,17 @@
         <span class="text-[#64ffda]">collaborate</span> with back-end developers
         who provide <span class="text-[#64ffda]">APIs</span>.
       </p>
+      <div class="my-5">
+        <a href="https://www.linkedin.com/in/waiyanlatt/" target="_blank">
+          <i class="text-white fa-brands fa-linkedin text-3xl"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100011440302205" class="ml-5" target="_blank">
+          <i class="text-white fa-brands fa-facebook text-3xl"></i>
+        </a>
+        <a href="https://github.com/WaiYanLatt" class="ml-5" target="_blank">
+          <i class="text-white fa-brands fa-github text-3xl"></i>
+        </a>
+      </div>
       <a href="/waiyanlattCV.pdf" download>
         <button
           class="hover:bg-[#64ffda] border-[#64ffda] hover:border-white duration-500 hover:text-black mt-5 px-5 py-2 rounded-md font-semibold text-lg text-[#64ffda] border"
